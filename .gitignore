@@ -1,0 +1,10 @@
+node_modules/
+*.log
+*.png
+*.jpg
+*.jpeg
+.DS_Store
+
+# local configs
+openclaw.json
+*.local.json

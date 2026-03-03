@@ -1,0 +1,14 @@
+{
+  "name": "openclaw-model-card",
+  "version": "0.1.0",
+  "private": false,
+  "description": "OpenClaw model list + image card generator",
+  "license": "MIT",
+  "scripts": {
+    "render": "python3 scripts/show-model-config.py --image ./model-card.png"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "markdown-it-emoji": "^3.0.0"
+  }
+}

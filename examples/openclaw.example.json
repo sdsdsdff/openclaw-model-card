@@ -1,0 +1,18 @@
+{
+  "models": {
+    "providers": {
+      "demo": {
+        "models": [
+          {"id": "demo-model", "contextWindow": 32000, "input": ["text", "image"]}
+        ]
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": {"primary": "demo/demo-model", "fallbacks": []},
+      "imageModel": {"primary": "demo/demo-model", "fallbacks": []},
+      "models": {"demo/demo-model": {"alias": "dm"}}
+    }
+  }
+}
