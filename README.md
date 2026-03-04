@@ -36,6 +36,10 @@ python3 scripts/show-model-config.py --config /path/to/openclaw.json
 python3 scripts/show-model-config.py --config /path/to/openclaw.json --image ./model-card.png
 ```
 
+## Screenshot (real model config example)
+
+![OpenClaw model config screenshot](./examples/model-config-screenshot.png)
+
 ## Config resolution order
 
 1. `--config /path/to/openclaw.json`

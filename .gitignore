@@ -5,6 +5,9 @@ node_modules/
 *.jpeg
 .DS_Store
 
+# keep README screenshot asset
+!examples/model-config-screenshot.png
+
 # local configs
 openclaw.json
 *.local.json
